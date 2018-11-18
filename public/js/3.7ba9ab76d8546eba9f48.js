@@ -1,0 +1,2 @@
+webpackJsonp([3],{"4OKm":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default={metaInfo:function(){return{title:"Success"}}}},Fvgz:function(e,t,n){var r=n("VU/8")(n("4OKm"),n("nkch"),!1,null,null,null);e.exports=r.exports},nkch:function(e,t){e.exports={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("h1",[this._v("Your order is placed")])])}]}}});
+//# sourceMappingURL=3.7ba9ab76d8546eba9f48.js.map

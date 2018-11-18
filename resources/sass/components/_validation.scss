@@ -1,0 +1,35 @@
+
+$bouncy: cubic-bezier(.20, 1.3, .7, 1);
+
+.is-invalid, .is-checkbox-invalid{
+  border-color: $danger;
+  animation: shake 500ms $bouncy both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/*--------------------
+Animations
+--------------------*/
+
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(1px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(3px, 0, 0);
+  }
+}

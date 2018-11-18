@@ -1,0 +1,28 @@
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.25s;
+}
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.15s;
+}
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.slide-leave-active,
+.slide-enter-active {
+    transition: 1s;
+}
+.slide-enter {
+    transform: translate(100%, 0);
+}
+.slide-leave-to {
+    transform: translate(-100%, 0);
+}

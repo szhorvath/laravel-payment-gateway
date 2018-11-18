@@ -1,0 +1,46 @@
+{
+    "root": true,
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "extends": [
+        "plugin:vue/recommended",
+        "plugin:prettier/recommended",
+        "eslint:recommended"
+    ],
+    "rules": {
+        "vue/max-attributes-per-line": "off",
+        "quotes": [
+            2,
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "vue/html-self-closing": [
+            "error",
+            {
+                "html": {
+                    "void": "always",
+                    "normal": "always",
+                    "component": "always"
+                },
+                "svg": "always",
+                "math": "always"
+            }
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "semi": false,
+                "singleQuote": true,
+                "printWidth": 120,
+                "tabWidth": 2,
+                "endOfLine": "auto"
+            }
+        ]
+    }
+}

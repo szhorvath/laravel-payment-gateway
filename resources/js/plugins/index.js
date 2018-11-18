@@ -1,0 +1,5 @@
+import './axios'
+import './fontawesome'
+import './eventbus'
+import './bootstrapvue'
+import './vueaffix'
